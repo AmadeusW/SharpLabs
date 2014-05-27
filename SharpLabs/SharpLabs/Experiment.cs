@@ -22,18 +22,24 @@ namespace SharpLabs
             }
         }
 
-        private bool _enabled;
-        public bool Enabled
+        private bool _active;
+        public bool Active
         {
             get
             {
-                return _enabled;
+                return _active;
             }
             set
             {
-                _enabled = value;
+                _active = value;
                 NotifyPropertyChanged();
             }
+        }
+
+        public Experiment(String name, bool active = false)
+        {
+            _name = name;
+            _active = active;
         }
     }
 }
