@@ -5,11 +5,11 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-        <ListView>
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn/>
-                </GridView>
-            </ListView.View>
-        </ListView>
+    <ListView ItemsSource="{Binding Experiments}">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <CheckBox Checked="{Binding Active}" Content="{Binding Name}" />
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </UserControl>
