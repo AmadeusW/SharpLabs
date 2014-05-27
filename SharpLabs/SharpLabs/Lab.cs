@@ -32,6 +32,7 @@ namespace AmadeusW.SharpLabs
         public Lab()
         {
             _experimentLookup = new Dictionary<string, Experiment>();
+            Experiments = new ObservableCollection<Experiment>();
         }
 
         /// <summary>
