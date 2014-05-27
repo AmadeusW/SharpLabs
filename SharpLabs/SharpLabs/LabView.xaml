@@ -8,7 +8,7 @@
     <ListView ItemsSource="{Binding Experiments}">
         <ListView.ItemTemplate>
             <DataTemplate>
-                <CheckBox Checked="{Binding Active}" Content="{Binding Name}" />
+                <CheckBox IsChecked="{Binding Active}" Content="{Binding Name}" />
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>
