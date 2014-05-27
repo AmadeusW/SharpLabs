@@ -7,7 +7,7 @@
     <ProjectGuid>{2AA5D3D4-1198-4C2C-90D5-DCFB13FAAE24}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SharpLabs</RootNamespace>
+    <RootNamespace>AmadeusW.SharpLabs</RootNamespace>
     <AssemblyName>SharpLabs</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

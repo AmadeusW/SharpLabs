@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SharpLabs
+namespace AmadeusW.SharpLabs
 {
     public class Lab : PropertyBase
     {

@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SharpLabs
+namespace AmadeusW.SharpLabs
 {
     /// <summary>
     /// Interaction logic for LabView.xaml
